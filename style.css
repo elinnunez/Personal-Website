@@ -80,6 +80,35 @@ h1 {
     padding: 10px;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae9f3;
+    padding: 5px;
+    gap: 6em;
+}
+
+footer p {
+    /* color: #230fd6; */
+    font-weight: bold;
+}
+
+footer a {
+    color: #7a6cf8;
+}
+
+footer ul {
+    display: flex;
+    gap: 2em;
+}
+
+footer ul a {
+    color: black;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 617px) {
   
     .nav-menu {
