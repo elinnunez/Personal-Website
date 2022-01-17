@@ -9,7 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 
 li {
@@ -66,18 +66,43 @@ a {
 }
 
 h1 {
-    font-size: 2.1rem;
-    font-weight: 500;
+    font-size: 3rem;
+    /* font-weight: 500; */
+    font-weight: bold;
     color: #482ff7;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
-    background-color: rgb(207, 205, 205);
+    text-align: center;
+    /* border: 1px solid blue; */
+    background-color: rgb(232, 232, 248);
     margin: 0;
-    padding: 10px;
+    padding: 0;
+}
+
+.container div {
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(206, 202, 202);
+    gap: 1rem;
+    padding: 1%;
+    height: 100vh;
+}
+
+.about-section p {
+    font-size: 2rem;
+}
+
+.container h2 {
+    text-decoration: underline;
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
 }
 
 footer {
@@ -91,7 +116,6 @@ footer {
 }
 
 footer p {
-    /* color: #230fd6; */
     font-weight: bold;
 }
 
