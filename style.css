@@ -90,12 +90,13 @@ h1 {
     align-items: center;
     border: 1px solid rgb(206, 202, 202);
     gap: 1rem;
-    padding: 1%;
-    height: 100vh;
+    padding: 5%;
+    height: 90vh;
+    width: 100vw;
 }
 
 .about-section p {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .container h2 {
