@@ -1,2 +1,2 @@
 # Personal Site
-Built using HTML, CSS, JS
+Built using HTML, CSS, JS.
