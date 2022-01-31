@@ -1,2 +1,2 @@
 # Personal Site
-Built using HTML, CSS, JS and modular JS practices.
+Built using HTML, CSS, JS using modular JS practices.
